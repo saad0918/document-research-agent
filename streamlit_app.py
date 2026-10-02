@@ -12,8 +12,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://documind-ai-backend-c4nl.onrender.com"
 
 
 # =========================================================
@@ -338,8 +337,7 @@ with st.sidebar:
     st.divider()
 
     st.caption(
-        "FastAPI · LangChain · FAISS · "
-        "Hugging Face · Gemini"
+        "FastAPI · LangChain · FAISS · Gemini"
     )
 
 
